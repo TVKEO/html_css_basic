@@ -42,13 +42,12 @@ body {
 
 
 .image img{
-  width: 990px;
-  height: 660px;
-
-    display: block;
-         margin-right:auto;
-         margin-left:auto ;
-         margin-top:5px;
+width: 990px;
+height: 660px;
+display: block;
+margin-right:auto;
+margin-left:auto;
+margin-top:5px;
      
 }
 

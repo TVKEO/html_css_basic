@@ -53,7 +53,7 @@ body {
 .box-style{
   width:70px;
   height:70px;
-  background-color: #fff	;
+  background-color: #fff;
   border-width: 1px;
   border-style: solid;
   border-color: #000;
@@ -63,10 +63,9 @@ body {
   display: flex;
   width: 350px;
   height: 700px;
-  background-color: #FF0000		;
+  background-color: #FF0000;
   align-items: center; 
   justify-content:center;
-
 }
 
 .box1 {
@@ -87,18 +86,13 @@ body {
   margin: 10px;  
 }
 
-
-
-
 .bluebox {
   display: flex;
   width: 350px;
   height: 700px;
-  background-color: #00F	;
+  background-color: #00F;
   align-items: flex-start; 
   justify-content: flex-end;
-
-
 }
 
 .box4 {
