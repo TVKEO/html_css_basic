@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 上の部分は気にせずここから書く */
+
+#boxes{
+  width: 1050px;
+  height: 700px;
+  margin: 7px auto;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  margin-top: 2px;
+}
+
+.box-style{
+  width:70px;
+  height:70px;
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
+  .redbox {
+  display: flex;
+  width: 350px;
+  height: 700px;
+  background-color: #FF0000;
+  align-items: center; 
+  justify-content:center;
+}
+
+.box1 {
+  margin-left: 2px;
+  float:left;
+  margin: 10px;  
+}
+
+.box2 {
+  margin-left: 2px;
+  float:left;
+  margin: 10px;  
+}
+
+.box3 {
+  margin-left: 2px;
+  float:left;
+  margin: 10px;  
+}
+
+.bluebox {
+  display: flex;
+  width: 350px;
+  height: 700px;
+  background-color: #00F;
+  align-items: flex-start; 
+  justify-content: flex-end;
+}
+
+.box4 {
+  display: flex;
+  float:left;
+  margin: 10px;  
+}
+
+.box5 {
+  display: flex;
+  float:left;
+  margin: 10px;  
+}
+
+.box6 {
+  display: flex;
+  float:left;
+  margin: 10px;
+}
+
+.greenbox {
+  display: flex;
+  width: 350px;
+  height: 700px;
+  background-color: #228B22;
+  align-items: flex-end; 
+  justify-content:flex-start;
+}
+
+.box7 {
+  display: flex;
+  margin: 10px;  
+
+}
+
+.box8 {
+  display: flex;
+  margin: 20px 10px;
+}
+
+.box9 {
+  display: flex;
+  margin: 10px;  
+
+}
+
+
+  
